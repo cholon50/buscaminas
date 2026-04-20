@@ -1,19 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="100" fill="#f0ede6"/>
-  <rect x="60" y="60" width="392" height="392" rx="40" fill="#161616" stroke="#2a2a2a" stroke-width="4"/>
-  <rect x="80" y="80" width="100" height="100" rx="16" fill="#1e1e1e"/>
-  <rect x="206" y="80" width="100" height="100" rx="16" fill="#c8f04a"/>
-  <rect x="332" y="80" width="100" height="100" rx="16" fill="#1e1e1e"/>
-  <rect x="80" y="206" width="100" height="100" rx="16" fill="#1e1e1e"/>
-  <rect x="206" y="206" width="100" height="100" rx="16" fill="#1e1e1e"/>
-  <rect x="332" y="206" width="100" height="100" rx="16" fill="#1e1e1e"/>
-  <rect x="80" y="332" width="100" height="100" rx="16" fill="#1e1e1e"/>
-  <rect x="206" y="332" width="100" height="100" rx="16" fill="#1e1e1e"/>
-  <rect x="332" y="332" width="100" height="100" rx="16" fill="#ff4d4d" opacity=".85"/>
-  <circle cx="382" cy="382" r="26" fill="#f0ede6"/>
-  <line x1="382" y1="344" x2="382" y2="420" stroke="#0a0a0a" stroke-width="8" stroke-linecap="round"/>
-  <line x1="344" y1="382" x2="420" y2="382" stroke="#0a0a0a" stroke-width="8" stroke-linecap="round"/>
-  <line x1="355" y1="355" x2="409" y2="409" stroke="#0a0a0a" stroke-width="6" stroke-linecap="round"/>
-  <line x1="409" y1="355" x2="355" y2="409" stroke="#0a0a0a" stroke-width="6" stroke-linecap="round"/>
-  <text x="256" y="138" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-weight="700" font-size="58" fill="#f0ede6">2</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="40" fill="#f0ede6"/>
+  <rect x="28" y="28" width="136" height="136" rx="16" fill="#161616" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- grid cells -->
+  <rect x="38" y="38" width="34" height="34" rx="6" fill="#1e1e1e"/>
+  <rect x="80" y="38" width="34" height="34" rx="6" fill="#c8f04a"/>
+  <rect x="120" y="38" width="34" height="34" rx="6" fill="#1e1e1e"/>
+  <rect x="38" y="79" width="34" height="34" rx="6" fill="#1e1e1e"/>
+  <rect x="80" y="79" width="34" height="34" rx="6" fill="#1e1e1e"/>
+  <rect x="120" y="79" width="34" height="34" rx="6" fill="#1e1e1e"/>
+  <rect x="38" y="120" width="34" height="34" rx="6" fill="#1e1e1e"/>
+  <rect x="80" y="120" width="34" height="34" rx="6" fill="#1e1e1e"/>
+  <rect x="120" y="120" width="34" height="34" rx="6" fill="#ff4d4d" opacity=".8"/>
+  <!-- mine symbol -->
+  <circle cx="137" cy="137" r="9" fill="#f0ede6"/>
+  <line x1="137" y1="124" x2="137" y2="150" stroke="#0a0a0a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="124" y1="137" x2="150" y2="137" stroke="#0a0a0a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="128" y1="128" x2="146" y2="146" stroke="#0a0a0a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="146" y1="128" x2="128" y2="146" stroke="#0a0a0a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- number in green cell -->
+  <text x="97" y="62" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-weight="700" font-size="22" fill="#f0ede6">2</text>
 </svg>
