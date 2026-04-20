@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#f0ede6">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Buscaminas">
@@ -16,22 +16,22 @@
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap');
 
   :root {
-    --bg: #0a0a0a;
-    --surface: #161616;
-    --surface2: #1f1f1f;
-    --border: #2a2a2a;
-    --border2: #383838;
-    --text: #f0ece4;
-    --muted: #888;
+    --bg: #f0ede6;
+    --surface: #e8e4dc;
+    --surface2: #dedad2;
+    --border: #c8c4bc;
+    --border2: #b8b4ac;
+    --text: #1a1814;
+    --muted: #7a7670;
     --accent: #c8f04a;
     --accent-dim: #8aaa2a;
     --danger: #ff4d4d;
     --danger-dim: #7a1f1f;
     --safe: #4dffaa;
     --safe-dim: #1a6644;
-    --cell-hidden: #1e1e1e;
-    --cell-revealed: #111;
-    --cell-border: #2e2e2e;
+    --cell-hidden: #dedad0;
+    --cell-revealed: #c8c4ba;
+    --cell-border: #b0aca4;
     --n1:#60a8ff; --n2:#4dffaa; --n3:#ff6060; --n4:#bf80ff;
     --n5:#ffaa40; --n6:#40ffee; --n7:#ff80bf; --n8:#aaa;
   }
@@ -203,7 +203,7 @@
     width: 100%;
     padding: 16px;
     background: var(--accent);
-    color: #0a0a0a;
+    color: #1a1814;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     font-size: 16px;
@@ -316,7 +316,7 @@
     display: none;
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.82);
+    background: rgba(240,237,230,0.92);
     z-index: 10;
     align-items: center;
     justify-content: center;
@@ -344,7 +344,7 @@
     transition: opacity 0.15s;
   }
   .ov-btn:active { opacity: 0.8; }
-  .ov-btn.primary { background: var(--accent); color: #0a0a0a; }
+  .ov-btn.primary { background: var(--accent); color: #1a1814; }
   .ov-btn.secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border2); }
 
   /* ── BOTTOM NAV ── */
