@@ -2,7 +2,7 @@
   "name": "Buscaminas",
   "short_name": "Buscaminas",
   "description": "Juego clásico de buscaminas para móvil",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0a0a0a",
   "theme_color": "#0a0a0a",
